@@ -16,28 +16,68 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset
 
 html
 {
-    font-size: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 401px)
+{
+    html
+    {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (min-width: 428px)
+{
+    html
+    {
+        font-size: 26.75px !important;
+    }
+}
+
+@media only screen and (min-width: 481px)
+{
+    html
+    {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 569px)
+{
+    html
+    {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (min-width: 641px)
+{
+    html
+    {
+        font-size: 40px !important;
+    }
 }
 
 body, button, input, select, textarea
 {
     font-family: Simsun;
-    font-size: 1.4rem;
+    font-size: 0.7rem;
 }
 
 h1
 {
-    font-size: 1.8rem;
+    font-size: 0.9rem;
 }
 
 h2
 {
-    font-size: 1.6rem;
+    font-size: 0.8rem;
 }
 
 h3
 {
-    font-size: 1.4rem;
+    font-size: 0.7rem;
 }
 
 h4, h5, h6
@@ -57,7 +97,7 @@ code, kbd, pre, samp, tt
 
 small
 {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
 }
 
 ul, ol
@@ -130,12 +170,12 @@ body
 
 .header
 {
-    height: 8rem;
+    height: 4rem;
 }
 
     .header > .head-nav
     {
-        height: 4.5rem;
+        height: 2.25rem;
         background: #8A6DEC;
         font-size: 0;
         white-space: nowrap;
@@ -146,18 +186,18 @@ body
             display: inline-block;
             vertical-align: top;
             text-align: center;
-            padding: 1.4rem 1.27rem 0 1.27rem;
+            padding: 0.7rem 0.635rem 0 0.635rem;
             font-weight: 700;
-            height: 4.5rem;
-            font-size: 1.4rem;
+            height: 2.25rem;
+            font-size: 0.7rem;
         }
 
             .header > .head-nav > a:first-child > img
             {
-                width: 3rem;
-                height: 3.5rem;
+                width: 1.5rem;
+                height: 1.75rem;
                 position: relative;
-                top: -0.7rem;
+                top: -0.45rem;
             }
 
             .header > .head-nav > a:active
@@ -167,7 +207,7 @@ body
 
     .header > .p-info
     {
-        height: 3.5rem;
+        height: 1.75rem;
         background: #F7F7EF;
     }
 
@@ -176,7 +216,7 @@ body
             float: left;
             font-size: 0;
             white-space: nowrap;
-            padding: 1rem 0 0 0.5rem;
+            padding: 0.5rem 0 0 0.25rem;
         }
 
             .header > .p-info > .recent-read > i, .header > .p-info > .recent-read > a
@@ -188,19 +228,27 @@ body
             .header > .p-info > .recent-read > i
             {
                 width: 1px;
-                height: 1.2rem;
+                height: 0.6rem;
                 background: #7c7c7c;
-                margin: 0 0.6rem;
+                margin: 0.1rem 0.15rem 0 0.15rem;
             }
 
             .header > .p-info > .recent-read > a
             {
-                font-size: 1.2rem;
-                height: 1.2rem;
-                line-height: 1.2rem;
+                font-size: 0.6rem;
+                height: 0.6rem;
+                line-height: 0.6rem;
                 color: #7c7c7c;
-                margin-top: 0.2rem;
+                margin-top: 0.1rem;
             }
+
+                .header > .p-info > .recent-read > a:last-child
+                {
+                    width: 6.5rem;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
 
         .header > .p-info > .login-btn
         {
@@ -208,18 +256,18 @@ body
             float: right;
             font-size: 0;
             white-space: nowrap;
-            padding: 1.2rem 0.5rem 0 0;
+            padding: 0.6rem 0.25rem 0 0;
         }
 
             .header > .p-info > .login-btn > a
             {
                 display: inline-block;
                 vertical-align: top;
-                font-size: 1.2rem;
-                height: 1.2rem;
-                line-height: 1.2rem;
+                font-size: 0.6rem;
+                height: 0.6rem;
+                line-height: 0.6rem;
                 color: #7c7c7c;
-                margin-top: 0.2rem;
+                margin-top: 0.1rem;
             }
 
         .header > .p-info > .login-info
@@ -228,7 +276,7 @@ body
             float: right;
             font-size: 0;
             white-space: nowrap;
-            padding: 1.2rem 0.5rem 0 0;
+            padding: 0.5rem 0.25rem 0 0;
         }
 
             .header > .p-info > .login-info > i, .header > .p-info > .login-info > a
@@ -240,20 +288,122 @@ body
             .header > .p-info > .login-info > i
             {
                 width: 1px;
-                height: 1.2rem;
+                height: 0.6rem;
                 background: #7c7c7c;
-                margin: 0 0.6rem;
+                margin: 0.1rem 0.15rem 0 0.15rem;
             }
 
             .header > .p-info > .login-info > a
             {
-                font-size: 1.2rem;
-                height: 1.2rem;
-                line-height: 1.2rem;
+                font-size: 0.6rem;
+                height: 0.6rem;
+                line-height: 0.6rem;
                 color: #7c7c7c;
-                margin-top: 0.2rem;
+                margin-top: 0.1rem;
             }
 
 .container
 {
 }
+
+.foot
+{
+    padding: 0 0.25rem;
+}
+
+    .foot > .go-firstpage
+    {
+        font-size: 0;
+        white-space: nowrap;
+        padding: 0.5rem 0;
+    }
+
+        .foot > .go-firstpage > a
+        {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+    .foot > .app-download
+    {
+        font-size: 0;
+        white-space: nowrap;
+        padding: 0 0 0.65rem 0;
+    }
+
+        .foot > .app-download > a
+        {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 0.7rem;
+            color: #3CABDB;
+            width: 6.75rem;
+            height: 1.75rem;
+            background: #fff;
+            text-align: center;
+            line-height: 1.75rem;
+            border-radius: 3px;
+            margin-right: 0.25rem;
+            padding-left: 1.3rem;
+            font-weight: 600;
+            position: relative;
+        }
+
+            .foot > .app-download > a:active
+            {
+                background: #929292;
+            }
+
+            .foot > .app-download > a > img
+            {
+                position: absolute;
+                width: 1rem;
+                height: 1rem;
+                top: 0.35rem;
+            }
+
+            .foot > .app-download > a > .android
+            {
+                left: 1rem;
+            }
+
+            .foot > .app-download > a > .ios
+            {
+                left: 1.25rem;
+            }
+
+    .foot > .service
+    {
+    }
+
+        .foot > .service > p
+        {
+            font-size: 0.8rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+            .foot > .service > p.title
+            {
+                font-weight: bold;
+            }
+
+        .foot > .service > img
+        {
+            width: 5rem;
+            height: 5rem;
+        }
+
+    .foot > .record-number
+    {
+        font-size: 0.5rem;
+        color: #999;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        font-family: Arial;
+        border-top: 1px solid #ccc;
+    }
