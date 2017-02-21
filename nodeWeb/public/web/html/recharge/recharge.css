@@ -1,0 +1,39 @@
+﻿.container
+{
+    padding:0.5rem;
+}
+.container > .cut-info
+{
+    font-size:0.8rem;
+}
+
+    .container > .cut-info > span
+    {
+        color:#F8640C;
+        margin-right:0.15rem;
+        font-family: Arial;
+        font-size:0.8rem;
+    }
+    .container > .warn
+{
+    background:#CBEFFF;
+    padding:0.25rem 0.1rem;
+    border-top:1px solid #A9D5E8;
+    border-left:1px solid #A9D5E8;
+    margin-top:0.25rem;
+    color:#3CAADB;
+    font-size:0.7rem;
+}
+        .container > .warn > .website
+        {
+            color:#A56600;
+            font-weight:bold;
+        }
+         .container > .warn > .copy
+        {
+            color:#fff;
+            background:#FD8D25;
+            border-radius:0.2rem;
+            padding:0.1rem;
+            margin-left:0.5rem;
+        }

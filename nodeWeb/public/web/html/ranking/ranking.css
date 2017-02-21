@@ -1,0 +1,79 @@
+﻿.container > .book-class
+{
+    border-radius: 0.25rem;
+    border: 1px solid #ececec;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0.4rem 0.7rem 0.7rem 0.75rem;
+}
+
+    .container > .book-class > .class-title
+    {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        border-bottom: 1px solid #dbdbdb;
+        font-weight: 400;
+    }
+
+.book-class > .class-title.red
+{
+    color: #f079b9;
+    border-bottom-color: #FAC4E1;
+}
+
+.book-class > .class-title.green
+{
+    color: #97AF2F;
+    border-bottom-color: #eaf3c2;
+}
+
+.book-class > .class-title.blue
+{
+    color: #36abdc;
+    border-bottom-color: #A7DAF0;
+}
+
+.book-class > .class-title.yellow
+{
+    color: #996600;
+    border-bottom-color: #dbdbdb;
+}
+
+.book-class > .work-list > .list-item
+{
+    padding: 0.5rem;
+    border-bottom: 1px dotted #eee;
+}
+
+    .book-class > .work-list > .list-item:last-child
+    {
+        border-bottom: none;
+    }
+
+.work-list > .list-item > span, .work-list > .list-item > a
+{
+    display: block;
+}
+
+.work-list > .list-item > span
+{
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 1.1rem;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    line-height: 1.1rem;
+    font-size: 0.6rem;
+    color: grey;
+    font-family: Arial;
+}
+
+.list-item > a
+{
+    color: #666;
+    font-size: 0.8rem;
+    margin-left: 1.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
