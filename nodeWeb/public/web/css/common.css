@@ -1,0 +1,259 @@
+﻿ms-clear, ::-ms-reveal
+{
+    display: none;
+}
+
+*:focus
+{
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 10px;
+}
+
+body, button, input, select, textarea
+{
+    font-family: Simsun;
+    font-size: 1.4rem;
+}
+
+h1
+{
+    font-size: 1.8rem;
+}
+
+h2
+{
+    font-size: 1.6rem;
+}
+
+h3
+{
+    font-size: 1.4rem;
+}
+
+h4, h5, h6
+{
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var, i
+{
+    font-style: normal;
+}
+
+code, kbd, pre, samp, tt
+{
+    font-family: "Courier New", Courier, monospace;
+}
+
+small
+{
+    font-size: 1.2rem;
+}
+
+ul, ol
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+    a:hover
+    {
+        text-decoration: none;
+    }
+
+    a:active
+    {
+        color: #fff;
+    }
+
+abbr[title], acronym[title]
+{
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after
+{
+    content: '';
+}
+
+legend
+{
+    color: #000;
+}
+
+fieldset, img
+{
+    border: none;
+}
+
+button, input, select, textarea
+{
+    font-size: 100%;
+    outline: none;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+}
+
+body
+{
+    overflow-x: hidden;
+    color: #666;
+    background: #fff url(../img/food.png);
+    margin: 0 auto;
+}
+
+.header
+{
+    height: 8rem;
+}
+
+    .header > .head-nav
+    {
+        height: 4.5rem;
+        background: #8A6DEC;
+        font-size: 0;
+        white-space: nowrap;
+    }
+
+        .header > .head-nav > a
+        {
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            padding: 1.4rem 1.27rem 0 1.27rem;
+            font-weight: 700;
+            height: 4.5rem;
+            font-size: 1.4rem;
+        }
+
+            .header > .head-nav > a:first-child > img
+            {
+                width: 3rem;
+                height: 3.5rem;
+                position: relative;
+                top: -0.7rem;
+            }
+
+            .header > .head-nav > a:active
+            {
+                background: #6641E2;
+            }
+
+    .header > .p-info
+    {
+        height: 3.5rem;
+        background: #F7F7EF;
+    }
+
+        .header > .p-info > .recent-read
+        {
+            float: left;
+            font-size: 0;
+            white-space: nowrap;
+            padding: 1rem 0 0 0.5rem;
+        }
+
+            .header > .p-info > .recent-read > i, .header > .p-info > .recent-read > a
+            {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .header > .p-info > .recent-read > i
+            {
+                width: 1px;
+                height: 1.2rem;
+                background: #7c7c7c;
+                margin: 0 0.6rem;
+            }
+
+            .header > .p-info > .recent-read > a
+            {
+                font-size: 1.2rem;
+                height: 1.2rem;
+                line-height: 1.2rem;
+                color: #7c7c7c;
+                margin-top: 0.2rem;
+            }
+
+        .header > .p-info > .login-btn
+        {
+            display: none;
+            float: right;
+            font-size: 0;
+            white-space: nowrap;
+            padding: 1.2rem 0.5rem 0 0;
+        }
+
+            .header > .p-info > .login-btn > a
+            {
+                display: inline-block;
+                vertical-align: top;
+                font-size: 1.2rem;
+                height: 1.2rem;
+                line-height: 1.2rem;
+                color: #7c7c7c;
+                margin-top: 0.2rem;
+            }
+
+        .header > .p-info > .login-info
+        {
+            /*display: none;*/
+            float: right;
+            font-size: 0;
+            white-space: nowrap;
+            padding: 1.2rem 0.5rem 0 0;
+        }
+
+            .header > .p-info > .login-info > i, .header > .p-info > .login-info > a
+            {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .header > .p-info > .login-info > i
+            {
+                width: 1px;
+                height: 1.2rem;
+                background: #7c7c7c;
+                margin: 0 0.6rem;
+            }
+
+            .header > .p-info > .login-info > a
+            {
+                font-size: 1.2rem;
+                height: 1.2rem;
+                line-height: 1.2rem;
+                color: #7c7c7c;
+                margin-top: 0.2rem;
+            }
+
+.container
+{
+}
