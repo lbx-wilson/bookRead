@@ -1,0 +1,115 @@
+﻿.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container > .page-title {
+    padding: 0 15px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #333;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.container > .container-common {
+    position: relative;
+    zoom: 1;
+    margin: 15px;
+}
+
+.container > .con-header {
+    margin: 0 15px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .8);
+    overflow: hidden;
+    border: 1px solid #ececec;
+}
+
+.book-list > .list-header {
+    padding: 0;
+    font-size: .8em;
+    color: #000;
+    overflow: hidden;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.book-list > .list-header > .list-li {
+    line-height: 1.5em;
+    padding: 5px 10px;
+    float: left;
+}
+
+.book-list > .list-header > .list-li:before, .book-list > .list-header > .list-li:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.book-list > .list-header > .list-li:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.book-list > .list-header > .list-li > span {
+    color: #000;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.book-list > .list-header > .list-li > a {
+    color: #000;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.book-list > .list-header > .list-li > .all-list {
+    color: #3CABDB;
+}
+
+.book-list > .list-header > .list-li > a {
+    margin-right: 0.5rem;
+    color: #7C7C7C;
+    white-space: nowrap;
+}
+
+.container-common > .list-foot {
+    padding: 10px;
+}
+
+.column-2 {
+    margin: 5px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 1rem;
+    zoom: 1;
+}
+
+.column-2 .right {
+    overflow: hidden;
+    zoom: 1;
+}
+.column-2 .right > .name {
+    color: #3CABDB;
+    font-size:0.75rem;
+}
+.column-2 .right > .update, .column-2 .right > .update a {
+    color: #636363;
+}
+.column-2 .right > .update {
+    font-size:0.65rem;
+}
+.column-2 .right >  .update > .time {
+    font-size: .5rem;
+    color: #999;
+}
+
+.column-2 .right > .info,.info >a {
+    color: #999
+}
+.column-2 .right > .info{
+    font-size:0.65rem;
+}
+.info > .words{
+    margin-left: 3px;
+}
