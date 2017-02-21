@@ -37,33 +37,43 @@
     color: #996600;
     border-bottom-color: #dbdbdb;
 }
+
 .book-class > .work-list > .list-item
 {
-    padding:0.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px dotted #eee;
 }
-.work-list > .list-item > span,.work-list > .list-item > a
+
+    .book-class > .work-list > .list-item:last-child
+    {
+        border-bottom: none;
+    }
+
+.work-list > .list-item > span, .work-list > .list-item > a
 {
-    display:block;
+    display: block;
 }
+
 .work-list > .list-item > span
 {
-    float:left;
-    width:1.1rem;
-    height:1.1rem;
-    border-radius:1.1rem;
-    border:1px solid #DFDFDF;
-    text-align:center;
-    line-height:1.1rem;
-    font-size:0.6rem;
-    color:grey;
-    font-family:Arial;
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 1.1rem;
+    border: 1px solid #DFDFDF;
+    text-align: center;
+    line-height: 1.1rem;
+    font-size: 0.6rem;
+    color: grey;
+    font-family: Arial;
 }
+
 .list-item > a
 {
-    color:#666;
-    font-size:0.8rem;
-    margin-left:1.6rem;
-    overflow:hidden;
-    white-space:nowrap;
-    text-overflow:ellipsis;
+    color: #666;
+    font-size: 0.8rem;
+    margin-left: 1.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
