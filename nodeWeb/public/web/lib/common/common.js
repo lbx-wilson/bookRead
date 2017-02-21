@@ -55,6 +55,8 @@ var _common = function () {
         '</div>'
     }
 }
-var common = new _common();
-$('body>.header').html(common.oDom.head);
-$('body>.foot').html(common.oDom.foot);
+var UTL = new _common();
+//添加公共头部
+$('body>.header').html(UTL.oDom.head);
+//添加公共尾部
+$('body>.foot').html(UTL.oDom.foot);
