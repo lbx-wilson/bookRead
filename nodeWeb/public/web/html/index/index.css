@@ -43,14 +43,14 @@
     right: 4.5rem;
 }
 
-.search-bar > .search-item > .search-input > input
-{
-    padding: 0.25rem;
-    width:100%;
-    height: 1.4rem;
-    line-height: 1.4rem;
-    font-size: 0.6rem;
-}
+    .search-bar > .search-item > .search-input > input
+    {
+        padding: 0.25rem;
+        width: 100%;
+        height: 1.4rem;
+        line-height: 1.4rem;
+        font-size: 0.6rem;
+    }
 
 .search-bar > .search-item > input.search-btn
 {
@@ -67,4 +67,214 @@
     .search-bar > .search-item > input.search-btn:active
     {
         background: #6bace4;
+    }
+
+.search-bar > .search-rec
+{
+    font-size: 0;
+    white-space: nowrap;
+    margin-top: 0.5rem;
+    padding: 0 0.9rem;
+}
+
+    .search-bar > .search-rec > a
+    {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 0.6rem;
+        margin-right: 0.5rem;
+        color: #666;
+    }
+
+.container > .book-class
+{
+    border-radius: 0.25rem;
+    border: 1px solid #ececec;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0.4rem 0.7rem 0.7rem 0.75rem;
+}
+
+    .container > .book-class > .class-title
+    {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        border-bottom: 1px solid #dbdbdb;
+        font-weight: 400;
+    }
+
+.book-class > .class-title.blue
+{
+    color: #36abdc;
+    border-bottom-color: #A7DAF0;
+}
+
+.book-class > .class-title.yellow
+{
+    color: #97AF2F;
+    border-bottom-color: #eaf3c2;
+}
+
+.container > .book-class > .class-one
+{
+    margin: 0.5rem;
+}
+
+.book-class > .class-one > .left
+{
+    float: left;
+}
+
+    .book-class > .class-one > .left > a > img
+    {
+        height: 5.6rem;
+        width: 4rem;
+    }
+
+.book-class > .class-one > .right
+{
+    margin-left: 4.75rem;
+    height: 5.6rem;
+    padding-top: 0.35rem;
+}
+
+    .book-class > .class-one > .right > .title
+    {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #666;
+        height: 0.8rem;
+        line-height: 0.8rem;
+    }
+
+    .book-class > .class-one > .right > .content
+    {
+        padding-top: 0.8rem;
+        text-indent: 2em;
+        overflow: hidden;
+        font-size: 0.6rem;
+        line-height: 0.95rem;
+        height: 4.5rem;
+    }
+
+.book-class > .class-list
+{
+    margin: 0.5rem;
+    border-top: 1px solid #EAEAEA;
+}
+
+    .book-class > .class-list > .list-item
+    {
+        height: 0.8rem;
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+        .book-class > .class-list > .list-item > .rec-item
+        {
+            float: left;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            color: #996600;
+        }
+
+        .book-class > .class-list > .list-item > .book-name
+        {
+            height: 0.8rem;
+            line-height: 0.8rem;
+            margin-left: 4.65rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+            .book-class > .class-list > .list-item > .book-name > a
+            {
+                color: #868686;
+            }
+
+                .book-class > .class-list > .list-item > .book-name > a.blue
+                {
+                    color: #2991CC;
+                }
+
+                .book-class > .class-list > .list-item > .book-name > a.red
+                {
+                    color: #FF9999;
+                }
+
+.book-class > .book-list
+{
+    margin: 0.5rem;
+}
+
+    .book-class > .book-list > .book-list-item
+    {
+        font-size: 0;
+        white-space: nowrap;
+        margin-bottom: 0.5rem;
+    }
+
+        .book-class > .book-list > .book-list-item:last-child
+        {
+            margin-bottom: 0rem;
+        }
+
+.book-list > .book-list-item > .book-item
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 4.5rem;
+    position: relative;
+}
+
+    .book-list > .book-list-item > .book-item > a
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .book-list > .book-list-item > .book-item > .a-img
+    {
+        width: 2.5rem;
+        height: 3.35rem;
+        top: 0;
+    }
+
+        .book-list > .book-list-item > .book-item > .a-img > img
+        {
+            width: 2.5rem;
+            height: 3.35rem;
+        }
+
+    .book-list > .book-list-item > .book-item > .a-name
+    {
+        bottom: 0;
+        width: 3.1rem;
+        height: 0.6rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #666;
+        line-height: 0.6rem;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+
+.book-class > .goto-area
+{
+    border-top: 1px solid #a9d5e8;
+    text-align: center;
+}
+
+    .book-class > .goto-area > a
+    {
+        height: 2rem;
+        line-height: 2rem;
+        color: #3abee8;
+        font-size:0.8rem;
+        font-weight:bold;
     }
