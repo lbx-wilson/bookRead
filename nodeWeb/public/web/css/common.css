@@ -413,3 +413,34 @@ body
         font-family: Arial;
         border-top: 1px solid #ccc;
     }
+
+.mdl-page
+{
+    font-size:0;
+    height:1rem;
+}
+    .mdl-page > span, .mdl-page > select
+    {
+        display:inline-block;
+        vertical-align:top;
+        height:1rem;
+        line-height:1rem;
+        color: #666;
+        font-size:0.8rem;
+    }
+    .mdl-page > select
+    {
+        min-width:2rem;
+        margin-left:0.4rem;
+    }
+    .mdl-page > select,.mdl-page > .go-page ,.mdl-page > .page-count
+    {
+        margin-left:0.4rem;
+    }
+    .mdl-page > .go-page
+    {
+        padding:0 0.8rem;
+        background:#6bace4;
+        color: #fff;
+        font-size:0.6rem;
+    }
