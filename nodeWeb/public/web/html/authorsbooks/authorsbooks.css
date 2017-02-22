@@ -1,0 +1,99 @@
+﻿.container
+{
+    padding-top: 0.75rem;
+}
+
+    .container > .authors
+    {
+        margin: 0.75rem;
+        height: 2.5rem;
+    }
+
+        .container > .authors > img
+        {
+            float: left;
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+
+        .container > .authors > p
+        {
+            margin-left: 3.25rem;
+            height: 2.5rem;
+            line-height: 2.5rem;
+            font-size: 0.8rem;
+            color: #666;
+            font-weight: bold;
+        }
+
+    .container > .book-list
+    {
+        margin: 0.75rem;
+        border-radius: 0.2rem;
+        background: #fff;
+        padding-bottom: 0.5rem;
+    }
+
+        .container > .book-list > .con-title
+        {
+            padding: 0.5rem;
+            font-weight: 400;
+            color: #996600;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #dbdbdb;
+        }
+
+        .container > .book-list > .list-book
+        {
+            padding: 0.5rem;
+        }
+
+.book-list > .list-book > .book-item
+{
+    height: 5.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #ddd;
+}
+
+    .book-list > .list-book > .book-item:last-child
+    {
+        border-bottom: none;
+    }
+
+.list-book > .book-item > .left
+{
+    float: left;
+    width: 3.5rem;
+    height: 4.7rem;
+}
+
+    .list-book > .book-item > .left img
+    {
+        width: 3.5rem;
+        height: 4.7rem;
+    }
+.list-book > .book-item > .right
+{
+        margin-left: 4.2rem;
+}
+.list-book > .book-item > .right > a {
+    display: block;
+    color: #cb0000;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.list-book > .book-item > .right > span {
+    display: block;
+    color: #666;
+    font-size: 0.8rem;
+}
+.list-book > .book-item > .right > span > a {
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
