@@ -13,7 +13,7 @@ var _common = function () {
         '</div>' +
         '<div class="p-info">' +
             '<div class="recent-read">' +
-                '<a href="###">最近阅读</a>' +
+                '<a href="../recread/recread.html">最近阅读</a>' +
                 '<i></i>' +
                 '<a href="###">我当上女婿的那些年</a>' +
             '</div>' +
@@ -23,7 +23,7 @@ var _common = function () {
             '<div class="login-info">' +
                 '<a href="###">用户名</a>' +
                 '<i></i>' +
-                '<a href="###">我的书架</a>' +
+                '<a href="../mybookshelf/mybookshelf.html">我的书架</a>' +
                 '<i></i>' +
                 '<a href="###">退出</a>' +
             '</div>' +

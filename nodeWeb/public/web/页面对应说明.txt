@@ -3,3 +3,4 @@ index：首页
 stacks：书库
 ranking：排行
 recharge：充值
+recread：最近阅读

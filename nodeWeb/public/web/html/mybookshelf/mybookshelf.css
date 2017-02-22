@@ -1,0 +1,73 @@
+﻿.container
+{
+    padding: 1rem 0.5rem;
+}
+
+    .container > .title
+    {
+        font-size: 0.95rem;
+        font-weight: 400;
+        color: #333;
+        text-shadow: 1px 1px 1px #fff;
+        margin-bottom: 0.7rem;
+    }
+
+    .container > .book-list
+    {
+        border-radius: 0.2rem;
+        border: 1px solid #eee;
+        background: #fff;
+        padding:0 0.4rem 0.2rem 0.4rem;
+    }
+
+        .container > .book-list > .book-item
+        {
+            height: 3.2rem;
+            border-bottom: 1px dotted #eee;
+        }
+            .container > .book-list > .book-item:last-child
+            {
+                border-bottom: none;
+            }
+            .container > .book-list > .book-item > div
+            {
+                margin-right:3.6rem;
+            }
+            .container > .book-list > .book-item > div >p:first-child
+            {
+                font-size:0.75rem;
+                height:0.75rem;
+                color:#F079B9;
+                height:1.6rem;
+                line-height:2.4rem;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+            }
+            .container > .book-list > .book-item > div >p:last-child
+            {
+                font-size:0.6rem;
+                height:0.6rem;
+                color:#999;
+                height:1.3rem;
+                line-height:1.3rem;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+            }
+            .container > .book-list > .book-item > a
+            {
+                float: right;
+                height:1.25rem;
+                line-height:1.25rem;
+                padding:0 0.4rem;
+                background: #6BACE4;
+                font-size:0.6rem;
+                border-radius: 3px;
+                margin-top:0.8rem;
+            }
+
+                .container > .book-list > .book-item > a:active
+                {
+                    background: #36abdc;
+                }
