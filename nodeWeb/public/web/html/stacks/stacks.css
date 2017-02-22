@@ -1,15 +1,16 @@
 ﻿.container {
-    padding-top: 10px;
+    padding-top: 1rem;
     padding-bottom: 10px;
 }
 
 .container > .page-title {
     padding: 0 15px;
     margin-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 0.95rem;
     font-weight: 400;
     color: #333;
     text-shadow: 1px 1px 1px #fff;
+    margin-bottom: 0.7rem;
 }
 
 .container > .container-common {
@@ -19,7 +20,7 @@
 }
 
 .container > .con-header {
-    margin: 0 15px 15px;
+    margin: 0 0.75rem 0.75rem;
     border-radius: 5px;
     background: rgba(255, 255, 255, .8);
     overflow: hidden;
@@ -28,6 +29,7 @@
 
 .book-list > .list-header {
     padding: 0;
+    padding-top:0.25rem;
     font-size: .65rem;
     color: #000;
     overflow: hidden;
