@@ -50,7 +50,7 @@
 
 .book-list > .list-book > .book-item
 {
-    height: 5.75rem;
+    min-height: 5.75rem;
     padding: 0.5rem 0;
     border-bottom: 1px dotted #ddd;
 }
@@ -94,6 +94,5 @@
 }
 .list-book > .book-item > .right > span > a {
     color: #666;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    line-height:0.9rem;
 }

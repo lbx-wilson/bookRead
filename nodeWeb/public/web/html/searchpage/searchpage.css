@@ -149,7 +149,6 @@ input::-webkit-input-placeholder
 
 .book-list > .book-item > .book-brief
 {
-    height: 4.75rem;
     text-indent: 2em;
     font-size: 0.6rem;
     margin-top: 0.25rem;

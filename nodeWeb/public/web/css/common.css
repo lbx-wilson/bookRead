@@ -412,6 +412,7 @@ body
         text-align: center;
         font-family: Arial;
         border-top: 1px solid #ccc;
+        margin-top:0.25rem;
     }
 
 .mdl-page

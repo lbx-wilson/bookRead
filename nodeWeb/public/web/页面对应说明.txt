@@ -1,5 +1,6 @@
 ﻿http://10.1.180.46:2000/web/html/index/index.html
 authorsbooks：作者书籍列表页
+bookDetail:书籍详情页
 index：首页
 mybookshelf:我的书架
 ranking：排行
