@@ -269,6 +269,10 @@
     border-top: 1px solid #a9d5e8;
     text-align: center;
 }
+    .book-class > .goto-area:active
+    {
+        background:#ddd;
+    }
 
     .book-class > .goto-area > a
     {

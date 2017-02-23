@@ -368,7 +368,7 @@ body
 
             .foot > .app-download > a:active
             {
-                background: #929292;
+                background: #ddd;
             }
 
             .foot > .app-download > a > img
