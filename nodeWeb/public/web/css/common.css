@@ -116,6 +116,15 @@ a
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
 }
+div
+{
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
 
     a:hover
     {

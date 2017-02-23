@@ -43,6 +43,10 @@
     padding: 0.5rem;
     border-bottom: 1px dotted #eee;
 }
+    .book-class > .work-list > .list-item:active
+    {
+        background:#ddd;
+    }
 
     .book-class > .work-list > .list-item:last-child
     {
