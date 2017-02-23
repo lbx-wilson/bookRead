@@ -6,6 +6,7 @@ index：首页
 mybookshelf:我的书架
 orderlisbook:听书订购
 ranking：排行
+read:阅读页
 recharge：充值
 recread：最近阅读
 searchpage：搜索结果

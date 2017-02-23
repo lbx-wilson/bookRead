@@ -1,0 +1,177 @@
+﻿.container
+{
+    padding: 0.5rem 0.8rem;
+}
+
+    .container > .read-nav
+    {
+        font-size: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        height: 0.7rem;
+    }
+
+        .container > .read-nav > a
+        {
+            display: inline-block;
+            vertical-align: top;
+            height: 0.7rem;
+            line-height: 0.75rem;
+            color: #999;
+            font-size: 0.7rem;
+            margin-left: 0.1rem;
+        }
+
+        .container > .read-nav.bottom
+        {
+            margin-top: 1rem;
+        }
+
+            .container > .read-nav.bottom > a
+            {
+                color: #666;
+            }
+
+    .container > .book-chaper
+    {
+        margin: 0.8rem 0;
+        font-size: 0.95rem;
+        font-weight: 400;
+        color: #333;
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+    .container > .book-info
+    {
+    }
+
+        .container > .book-info > .tool-btn
+        {
+            float: right;
+            width: 4.2rem;
+            height: 1.12rem;
+            font-size: 0;
+            white-space: nowrap;
+        }
+
+.book-info > .tool-btn > span
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 1.75rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 0.6rem;
+    text-align: center;
+    color: #000;
+    background: #d6d6d6;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+    .book-info > .tool-btn > span:active
+    {
+        background: #94C8E0;
+    }
+
+.container > .book-info > .info > p
+{
+    color: #999;
+    font-size: 0.6rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.book-info > .info > p:last-child
+{
+    margin-top: 0.3rem;
+}
+
+.container > .book-content
+{
+    padding-top: 1.5rem;
+}
+
+    .container > .book-content > p
+    {
+        padding-bottom: 0.7rem;
+    }
+
+.container > .recom-read > .recom-read-title
+{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.container > .recom-read > .book-list > p
+{
+    line-height: 1.2rem;
+    font-size: 0.7rem;
+}
+
+    .container > .recom-read > .book-list > p > a
+    {
+        margin-left: 0.4rem;
+        color: #49a4d1;
+    }
+
+.container > .op-btn
+{
+    height: 0.7rem;
+    margin-top: 1.5rem;
+}
+
+    .container > .op-btn > a
+    {
+        float: right;
+        width: 4rem;
+        text-align: center;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        color: #666;
+        position:relative;
+    }
+
+        .container > .op-btn > a > img
+        {
+            position: absolute;
+            width: 0.5rem;
+            height: 0.458rem;
+            top: 0.1rem;
+            left: 0.4rem;
+        }
+
+    .container > .op-btn > i
+    {
+        float: right;
+        width: 0.05rem;
+        height: 0.7rem;
+        background: #bbb;
+        position: relative;
+        right: 0.35rem;
+    }
+
+.container > .contact
+{
+    margin-top: 1rem;
+    margin-bottom:1.5rem;
+}
+
+    .container > .contact > p
+    {
+        text-align: center;
+        font-size: 0.8rem;
+        height: 0.85rem;
+        line-height: 0.8rem;
+    }
+
+    .container > .contact > img
+    {
+        display: block;
+        margin: 0.5rem auto;
+        width: 10rem;
+        height: 10rem;
+    }
