@@ -1,0 +1,131 @@
+﻿.container
+{
+    padding: 0.5rem 0 0.5rem 0;
+    color: #666;
+}
+
+    .container > .comment-title > h1
+    {
+        font-weight: 400;
+        color: #333;
+        padding: 0 0.75rem;
+        font-size: 0.95rem;
+        padding: 0 0.75rem;
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+    .container > .com-middle
+    {
+        position: relative;
+        margin: 0.5rem 0.75rem;
+    }
+
+    .container > .comment-bottom
+    {
+        background-color: #fff;
+        border-radius: 0.25rem;
+        overflow: hidden;
+        border: 1px solid #ececec;
+    }
+
+.comment-bottom > .like-tile
+{
+    padding: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+    .comment-bottom > .like-tile > h4
+    {
+        font-weight: 400;
+        color: #996600;
+        font-size: 0.9rem;
+    }
+
+.comment-bottom .count
+{
+    margin-left: 0.15rem;
+    color: #999;
+}
+
+.comment-bottom .bottom-body
+{
+    padding: 0.5rem;
+}
+
+    .comment-bottom .bottom-body li
+    {
+        border-bottom: 1px dotted #ececec;
+        margin-bottom: 0.5rem;
+    }
+
+    .comment-bottom .bottom-body .top
+    {
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .comment-bottom .bottom-body .word
+    {
+        line-height: 1rem;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+.bottom-body .top span
+{
+    color: #c63;
+}
+
+.bottom-body .top i > span
+{
+    color: #fcb421;
+}
+
+.bottom-body .dom-bto
+{
+    position: relative;
+    font-size: 0.6rem;
+    padding-right: 0.25rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-bottom: 0.3rem;
+}
+
+    .bottom-body .dom-bto a
+    {
+        display: inline-block;
+        vertical-align: top;
+        color: #ccc;
+        max-width: 5.5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .bottom-body .dom-bto .little-img
+    {
+        width: 0.55rem;
+        height: 0.55rem;
+        margin-right: 0.2rem;
+        position: relative;
+        top: 0.06rem;
+    }
+     .bottom-body .dom-bto > .time > .little-img
+    {
+        top: 0.075rem;
+    }
+
+    .bottom-body .dom-bto .time
+    {
+        position: absolute;
+        right: 0;
+    }
+
+.mdl-page
+{
+    margin: 0 0.75rem;
+}

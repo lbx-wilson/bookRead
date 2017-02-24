@@ -1,93 +1,109 @@
-﻿.container {
+﻿.container
+{
     padding: 0.5rem 0 10px 0;
     color: #666;
 }
 
-.container > .book-title {
-    padding-left: 0.75rem;
-    font-size: 0.65rem;
-}
+    .container > .book-title
+    {
+        padding-left: 0.75rem;
+        font-size: 0.65rem;
+    }
 
-.container > .book-title > a {
-    display: inline-block;
-    position: relative;
-    color: #666;
-    white-space: nowrap;
-    padding: 0 0.15rem;
-}
+        .container > .book-title > a
+        {
+            display: inline-block;
+            position: relative;
+            color: #666;
+            white-space: nowrap;
+            padding: 0 0.15rem;
+        }
 
-.container > .middle {
-    position: relative;
-    zoom: 1;
-    margin: 0.75rem 0.75rem;
-}
+    .container > .middle
+    {
+        position: relative;
+        zoom: 1;
+        margin: 0.75rem 0.75rem;
+    }
 
-.detail > .left {
+.detail > .left
+{
     float: left;
     padding-right: 0.8rem;
 }
 
-.detail > .left > img {
-    width: 4.5rem;
-    height: 6rem;
-    box-shadow: 0 1px 6px 1px #BDBDBD;
-}
+    .detail > .left > img
+    {
+        width: 4.5rem;
+        height: 6rem;
+        box-shadow: 0 1px 6px 1px #BDBDBD;
+    }
 
-.detail > .right > h2 {
+.detail > .right > h2
+{
     font-weight: 400;
     height: 3rem;
     color: #333;
 }
 
-.detail > .right > .bottom {
+.detail > .right > .bottom
+{
     position: relative;
 }
 
-.detail > .right > .bottom > span {
-    display: block;
-    font-size: 0.6rem;
-    color: #666;
-    line-height: 1rem;
-}
+    .detail > .right > .bottom > span
+    {
+        display: block;
+        font-size: 0.6rem;
+        color: #666;
+        line-height: 1rem;
+    }
 
-.detail > .right > .bottom > span:first-child > a {
-    color: #666;
-}
+        .detail > .right > .bottom > span:first-child > a
+        {
+            color: #666;
+        }
 
-.detail > .right > .bottom > .loading {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background: #FFCC00;
-    padding: 0 3px;
-    color: #fff;
-}
+    .detail > .right > .bottom > .loading
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: #FFCC00;
+        padding: 0 3px;
+        color: #fff;
+    }
 
-.detail > .btn {
+.detail > .btn
+{
     margin-top: 0.75rem;
 }
 
-.detail > .btn > a {
-    display: inline-block;
-    height: 2rem;
-    line-height: 2rem;
-    width: 47%;
-    text-align: center;
-    font-size: 0.7rem;
-}
+    .detail > .btn > a
+    {
+        display: inline-block;
+        height: 2rem;
+        line-height: 2rem;
+        width: 47%;
+        text-align: center;
+        font-size: 0.7rem;
+    }
 
-.detail > .btn > a:first-child {
-    color: #fff;
-    background-color: #3CABDB;
-}
+        .detail > .btn > a:first-child
+        {
+            color: #fff;
+            background-color: #3CABDB;
+        }
 
-.detail > .btn > a:last-child {
-    color: #999;
-    background-color: #FFF;
-    margin-left: 0.5rem;
-}
+        .detail > .btn > a:last-child
+        {
+            color: #999;
+            background-color: #FFF;
+            margin-left: 0.5rem;
+        }
 
-.info-box > .info {
+.info-box > .info
+{
     position: relative;
     zoom: 1;
     text-indent: 1.4rem;
@@ -95,117 +111,136 @@
     line-height: 1.1rem;
 }
 
-.container > .book-update {
+.container > .book-update
+{
     position: relative;
     height: 2.3rem;
     line-height: 1.15rem;
 }
 
-.container > .book-update > .new-time {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 100%;
-}
+    .container > .book-update > .new-time
+    {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 100%;
+    }
 
-.container > .book-update > .new-time > b {
-    font-weight: bold;
-    font-size: 0.8rem;
-}
+        .container > .book-update > .new-time > b
+        {
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
 
-.container > .book-update > .new-time > span {
-    position: absolute;
-    right: 0;
-    font-size: 0.6rem;
-    font-family: Arial;
-    color: #999;
-}
+        .container > .book-update > .new-time > span
+        {
+            position: absolute;
+            right: 0;
+            font-size: 0.6rem;
+            font-family: Arial;
+            color: #999;
+        }
 
-.container > .book-update > .next-page > a {
-    font-size: 0.7rem;
-    color: #3CABDB;
-}
+    .container > .book-update > .next-page > a
+    {
+        font-size: 0.7rem;
+        color: #3CABDB;
+    }
 
-.book-more > .box {
+.book-more > .box
+{
     margin-top: 0.5rem;
 }
 
-.book-more > .box > a {
-    display: block;
-    padding: 0.3rem 0;
-    font-size: 0.6rem;
-    border-radius: 5px;
-    text-align: center;
-    color: #3CABDB;
-    background: #eee;
-}
+    .book-more > .box > a
+    {
+        display: block;
+        padding: 0.3rem 0;
+        font-size: 0.6rem;
+        border-radius: 5px;
+        text-align: center;
+        color: #3CABDB;
+        background: #eee;
+    }
 
-.container > .recent-read {
+.container > .recent-read
+{
     margin: 0 0.75rem 0.75rem;
-    border-radius: 5px;
+    border-radius: 0.25rem;
     background: #fff;
     overflow: hidden;
     border: 1px solid #ececec;
 }
 
-.recent-read > .head {
+.recent-read > .head
+{
     border-bottom: 1px solid #dbdbdb;
     padding: 0.5rem;
 }
 
-.recent-read > .head > a {
-    float: right;
-    color: #f079b9;
-    font-size: 0.8rem;
-    line-height: 0.8rem;
-}
+    .recent-read > .head > a
+    {
+        float: right;
+        color: #f079b9;
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
 
-.recent-read > .head > h4 {
-    font-weight: 400;
-    font-size: 0.875rem;
-    color: #996600;
-}
+    .recent-read > .head > h4
+    {
+        font-weight: 400;
+        font-size: 0.875rem;
+        color: #996600;
+    }
 
-.recent-read > .foot {
+.recent-read > .foot
+{
     position: relative;
     zoom: 1;
     padding: 0.5rem;
 }
 
-.recent-read > .foot {
+.recent-read > .foot
+{
     position: relative;
     zoom: 1;
     padding: 0.5rem;
 }
 
-.recent-read > .foot > .donate-counts {
-    margin-bottom: 0.75rem;
-}
+    .recent-read > .foot > .donate-counts
+    {
+        height: 4rem;
+        margin-bottom: 15px; /*0.6rem*/
+    }
 
-.recent-read > .foot > .donate-counts > .donate-box {
-    float: left;
+        .recent-read > .foot > .donate-counts > .donate-box
+        {
+            float: left;
+            text-align: center;
+            color: #999;
+            padding: 0.5rem 0 0.5rem 0.25rem;
+            width: 16%;
+        }
 
-    text-align: center;
-    color: #999;
-    padding: 0.5rem 0 0.5rem 0.25rem;
-    width: 16%;
-}
-
-.donate-box > p {
+.donate-box > p
+{
     line-height: 0.7rem;
     font-size: 0.6rem;
 }
 
-.donate-box > .img > img {
+.donate-box > .img > img
+{
     width: 1.2rem;
     height: 1.2rem;
 }
 
-.donate-box > .number {
+.donate-box > .number
+{
     color: #3CABDB;
 }
 
-.recent-read > .foot > ul > volist > li {
+.recent-read > .foot > ul > volist > li
+{
     margin-bottom: 0.25rem;
     padding: 3px 0;
     color: #666;
@@ -214,33 +249,220 @@
     line-height: 0;
 }
 
-.recent-read > .foot > ul > volist > li:last-child {
-    border-bottom: 0;
+    .recent-read > .foot > ul > volist > li:last-child
+    {
+        border-bottom: 0;
+    }
+
+    .recent-read > .foot > ul > volist > li > .name
+    {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 50%;
+        margin-right: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 0.7rem;
+        line-height: 0.7rem;
+    }
+
+    .recent-read > .foot > ul > volist > li > img
+    {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .recent-read > .foot > ul > volist > li > .by
+    {
+        font-size: 0.6rem;
+        color: #999;
+    }
+
+    .recent-read > .foot > ul > volist > li > .count
+    {
+        font-size: 0.7rem;
+        color: #3CABDB;
+    }
+
+.container > .guest-like
+{
+    background-color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid #ececec;
 }
 
-.recent-read > .foot > ul > volist > li > .name {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 50%;
-    margin-right: 5px;
+.guest-like > .like-tile
+{
+    padding: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+    .guest-like > .like-tile > h4
+    {
+        font-weight: 400;
+        color: #996600;
+        font-size: 0.9rem;
+    }
+
+.guest-like > .like-body
+{
+    padding: 0.5rem;
+}
+
+    .guest-like > .like-body > ul > li
+    {
+        float: left;
+        width: 25%;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+
+.like-body img
+{
+    height: 3.5rem;
+    width: 2.8rem;
+    /*max-width: 100px;*/
+    box-shadow: 0 0 3px 0 #ccc;
+}
+
+.like-body p
+{
+    padding-top: 0.25rem;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 0.7rem;
-    line-height: 0.7rem;
 }
 
-.recent-read > .foot > ul > volist > li > img {
-    width: 0.8rem;
-    height: 0.8rem;
+    .like-body p > a
+    {
+        font-size: 0.6rem;
+        color: #666;
+    }
+
+.container > .detail-bottom
+{
+    background-color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid #ececec;
 }
 
-.recent-read > .foot > ul > volist > li > .by {
-    font-size: 0.6rem;
+.detail-bottom > .like-tile
+{
+    padding: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+    .detail-bottom > .like-tile > h4
+    {
+        font-weight: 400;
+        color: #996600;
+        font-size: 0.9rem;
+    }
+
+.detail-bottom .count
+{
+    margin-left: 0.15rem;
     color: #999;
 }
 
-.recent-read > .foot > ul > volist > li > .count {
-    font-size: 0.7rem;
-    color: #3CABDB;
+.detail-bottom .bottom-body
+{
+    padding: 1rem;
 }
+
+    .detail-bottom .bottom-body li
+    {
+        border-bottom: 1px dotted #ececec;
+        margin-bottom: 0.5rem;
+    }
+
+    .detail-bottom .bottom-body .top
+    {
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .detail-bottom .bottom-body .word
+    {
+        line-height: 1rem;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+.bottom-body .top span
+{
+    color: #c63;
+}
+
+.bottom-body .top i > span
+{
+    color: #fcb421;
+}
+
+.bottom-body .dom-bto
+{
+    position: relative;
+    font-size: 0.6rem;
+    padding-right: 0.25rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-bottom: 0.3rem;
+}
+
+    .bottom-body .dom-bto a
+    {
+        display: inline-block;
+        vertical-align: top;
+        color: #ccc;
+        max-width: 5.5rem;
+        height:0.7rem;
+        line-height:0.7rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .bottom-body .dom-bto .little-img
+    {
+        width: 0.55rem;
+        height: 0.55rem;
+        margin-right: 0.2rem;
+        position: relative;
+        top: 0.06rem;
+    }
+    .bottom-body .dom-bto > .time > .little-img
+    {
+        top: 0.075rem;
+    }
+
+    .bottom-body .dom-bto .time
+    {
+        position: absolute;
+        right: 0;
+    }
+
+.bottom-body .pl-more
+{
+    position: relative;
+    zoom: 1;
+}
+
+    .bottom-body .pl-more > a
+    {
+        display: inline-block;
+        text-align: center;
+        color: #3CABDB;
+        border: none;
+        border-radius: 0;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: 0.7rem;
+        width: 100%;
+    }
