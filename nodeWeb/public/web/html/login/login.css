@@ -1,0 +1,45 @@
+﻿.container > .book-class {
+    border-radius: 0.25rem;
+    border: 1px solid #ececec;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0.4rem 0.7rem 0.7rem 0.75rem;
+}
+
+.book-class > .work-list {
+    padding: 0.5rem;
+}
+
+.container > .book-class > .class-title {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #dbdbdb;
+    font-weight: 400;
+}
+
+.work-list .list-item {
+    text-align: center;
+}
+
+.work-list .list-item a {
+    display: inline-block;
+    width: 3rem;
+}
+
+.work-list .list-item a > img {
+    display: block;
+    position: relative;
+    margin: 0 auto 0.25rem auto;
+    width: 3rem;
+    height: 3rem;
+}
+
+.work-list .list-item a > span {
+    color: #666;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.book-class > .class-title.yellow {
+    color: #996600;
+    border-bottom-color: #dbdbdb;
+}
