@@ -1,0 +1,77 @@
+﻿.container
+{
+    padding: 0.5rem 0.8rem;
+}
+
+    .container > .title
+    {
+        margin: 0.8rem 0;
+        font-size: 0.95rem;
+        color: #333;
+        text-shadow: 1px 1px 1px #fff;
+    }
+
+    .container > .book-class
+    {
+        border-radius: 0.25rem;
+        border: 1px solid #ececec;
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+        .container > .book-class > p
+        {
+            color: #333;
+            font-family: arial;
+        }
+
+        .container > .book-class > .class-title
+        {
+            padding: 0.4rem;
+            font-size: 0.8rem;
+            border-bottom: 1px solid #dbdbdb;
+            font-weight: 400;
+        }
+
+        .container > .book-class > .class-info
+        {
+            font-size: 0.8rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            margin: 0 0.4rem 0.4rem 0.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+            .container > .book-class > .class-info.first
+            {
+                margin-top: 0.8rem;
+            }
+
+            .container > .book-class > .class-info > span
+            {
+                color: #FD8D00;
+                margin-right: 0.2rem;
+            }
+
+        .container > .book-class > p.tips
+        {
+            font-size: 0.6rem;
+            color: #999;
+            margin: 0.8rem 0.4rem 0.8rem 0.4rem;
+        }
+
+        .container > .book-class > .recharge-btn
+        {
+            border-bottom-left-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+            text-align: center;
+            height: 1.45rem;
+            line-height: 1.45rem;
+            font-size: 0.8rem;
+            background: #36abdc;
+            color:#fff;
+        }
+
+            .container > .book-class > .recharge-btn:active
+            {
+                background: #6bafff;
+            }

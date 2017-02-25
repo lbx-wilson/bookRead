@@ -3,6 +3,7 @@ http://wap.xiaoshuozx.cn/Index.aspx
 authorsbooks：作者书籍列表页
 bookDetail:书籍详情页
 index：首页
+moreList:更多章节
 mybookshelf:我的书架
 orderlisbook:听书订购
 ranking：排行
