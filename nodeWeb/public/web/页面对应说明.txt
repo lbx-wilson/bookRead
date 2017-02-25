@@ -6,9 +6,11 @@ index：首页
 moreList:更多章节
 mybookshelf:我的书架
 orderlisbook:听书订购
+ordersection:订购章节
 ranking：排行
 read:阅读页
 recharge：充值
 recread：最近阅读
 searchpage：搜索结果
 stacks：书库
+tojoin：我要捧场
