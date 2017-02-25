@@ -6,8 +6,7 @@
 
     .container > .page-title
     {
-        padding: 0 15px;
-        margin-bottom: 15px;
+        padding: 0 0.75rem;
         font-size: 0.95rem;
         font-weight: 400;
         color: #333;

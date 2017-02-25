@@ -1,0 +1,75 @@
+﻿.container > .buy-title {
+    padding: 0 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #333;
+    text-shadow: 1px 1px 1px #fff;
+    margin-bottom: 0.7rem;
+    margin-top: 1rem;
+}
+.container > .buy-class {
+    border-radius: 0.25rem;
+    border: 1px solid #ececec;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 0.4rem 0.7rem 0.7rem 0.75rem;
+}
+
+.buy-class > .work-list {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.buy-class > .work-list > p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.buy-class > .work-list > p >span{
+    color: #996600;
+}
+.buy-class > .work-list > .tip {
+    font-size: 0.7rem;
+    color: #7c7c7c;
+}
+.buy-class > .buy-btn {
+    margin-top: 0.5rem;
+}
+
+.buy-class > .buy-btn > a {
+    display: block;
+    text-align: center;
+    background: #5cc7f5;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.8rem;
+    font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif;
+    border-radius: 0 0px 0.25rem 0.25rem;
+}
+
+.container > .buy-class > .class-title {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #dbdbdb;
+    font-weight: 400;
+}
+
+/*.work-list .list-item {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.work-list .list-item a {*/
+    /*display: inline-block;*/
+    /*width: 3rem;*/
+/*}*/
+
+/*.work-list .list-item a > img {*/
+    /*display: block;*/
+    /*position: relative;*/
+    /*margin: 0 auto 0.25rem auto;*/
+    /*width: 3rem;*/
+    /*height: 3rem;*/
+/*}*/
+
+/*.work-list .list-item a > span {*/
+    /*color: #666;*/
+    /*font-size: 0.7rem;*/
+    /*font-weight: 600;*/
+/*}*/
