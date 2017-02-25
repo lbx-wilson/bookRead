@@ -1,0 +1,169 @@
+﻿.container {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #666;
+}
+
+.container > .list-title > h1 {
+    font-weight: 400;
+    color: #333;
+    padding: 0 0.75rem;
+    font-size: 0.95rem;
+    padding: 0 0.75rem;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.container > .com-middle {
+    position: relative;
+    margin: 0.5rem 0.75rem;
+}
+
+.container > .list-bottom {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid #ececec;
+}
+
+.list-bottom > .btn-tile {
+    font-size: 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.btn-tile a {
+    display: inline-block;
+    vertical-align: top;
+    color: #999;
+    width: 50%;
+    text-align: center;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    font-size: 0.7rem;
+    background: #fff;
+}
+
+.btn-tile .asc {
+    background: #3CABDB;
+    color: #fff;
+}
+
+.list-bottom .bottom-body {
+    padding: 0.5rem;
+}
+
+.bottom-body > h5 {
+    font-size: 0.65rem;
+    font-weight: bold;
+}
+
+.list-bottom .bottom-body li {
+    padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+    border-bottom: 1px dotted #e7e7e7;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.7rem;
+
+}
+
+.list-bottom .bottom-body li:last-child {
+    border-bottom: 0;
+}
+
+.list-bottom .bottom-body li > a {
+    color: #777;
+}
+
+.vipImg {
+    background: url(../../img/vip.png) no-repeat right 1px;
+    padding-right: 1rem;
+    background-size: 0.75rem;
+}
+
+.container > .guest-like {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    border: 1px solid #ececec;
+}
+
+.guest-like > .like-tile {
+    padding: 0.5rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.guest-like > .like-tile > h4 {
+    font-weight: 400;
+    color: #996600;
+    font-size: 0.9rem;
+}
+
+.guest-like > .like-body {
+    padding: 0.5rem;
+}
+
+.guest-like > .like-body > ul > li {
+    float: left;
+    width: 25%;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.like-body img {
+    height: 3.5rem;
+    width: 2.8rem;
+    box-shadow: 0 0 3px 0 #ccc;
+}
+
+.like-body p {
+    padding-top: 0.25rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.like-body p > a {
+    font-size: 0.6rem;
+    color: #666;
+}
+
+.mdl-page {
+    margin: 0 0.75rem;
+}
+
+.container .back-home {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.back-home > .back-home-body {
+    padding-left: 0.15rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.back-home-body .home {
+    display: inline-block;
+    background: url(../../img/home.png) no-repeat;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-size: 0.8rem;
+}
+
+.back-home-body .back-inside {
+    position: relative;
+    display: inline-block;
+    top: 0.2rem;
+    vertical-align: top;
+    width: 0.25rem;
+    height: 0.45rem;
+    margin: 0 0.15rem;
+    background: url(../../img/arrow-bread.gif) no-repeat;
+    background-size: 0.25rem;
+}
+
+.back-home-body .back-detail {
+    color: #666;
+    vertical-align: top;
+}
