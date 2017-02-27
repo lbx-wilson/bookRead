@@ -18,10 +18,10 @@ var _common = function () {
                 '<a href="###">我当上女婿的那些年</a>' +
             '</div>' +
             '<div class="login-btn">' +
-                '<a href="###">登录</a>' +
+                '<a href="../login/login.html">登录</a>' +
             '</div>' +
             '<div class="login-info">' +
-                '<a href="###">用户名</a>' +
+                '<a href="../accountcenter/accountcenter.html">用户名</a>' +
                 '<i></i>' +
                 '<a href="../mybookshelf/mybookshelf.html">我的书架</a>' +
                 '<i></i>' +

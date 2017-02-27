@@ -2,9 +2,12 @@
 http://wap.xiaoshuozx.cn/Index.aspx
 authorsbooks：作者书籍列表页
 bookDetail:书籍详情页
+comment:更多评论
 index：首页
+login：登录
 moreList:更多章节
 mybookshelf:我的书架
+orderbuy：订购包月
 orderlisbook:听书订购
 ordersection:订购章节
 ranking：排行

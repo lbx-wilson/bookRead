@@ -24,26 +24,9 @@
     height:0.9rem;
     line-height:0.9rem;
 }
-.buy-class > .work-list > p >span{
-    color: #996600;
-}
-.buy-class > .work-list > .tip {
-    font-size: 0.6rem;
-    color: #999;
-}
-.buy-class > .buy-btn {
-    margin-top: 0.5rem;
-}
 
-.buy-class > .buy-btn > a {
-    display: block;
-    text-align: center;
-    background: #5cc7f5;
-    height: 2rem;
-    line-height: 2rem;
-    font-size: 0.8rem;
-    font-family: '微软雅黑','Helvetica Neue',Helvetica,Arial,sans-serif;
-    border-radius: 0 0px 0.25rem 0.25rem;
+.buy-class > .work-list > p > i {
+    color:#FD8D00;
 }
 
 .container > .buy-class > .class-title {
@@ -51,4 +34,5 @@
     font-size: 0.9rem;
     border-bottom: 1px solid #dbdbdb;
     font-weight: 400;
+    color:#8F7013;
 }
